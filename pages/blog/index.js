@@ -67,12 +67,12 @@ const Blog = ({ posts }) => {
         <Head>
           <title>Blog</title>
         </Head>
+        <Header isBlog={true}></Header>
         <div
           className={`container mx-auto mb-10 ${
             data.showCursor && "cursor-none"
           }`}
         >
-          <Header isBlog={true}></Header>
           <div className="mt-10">
             <h1
               ref={text}

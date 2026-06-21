@@ -1,35 +1,29 @@
 import React from "react";
-import { useTheme } from "next-themes";
 import data from "../../data/portfolio.json";
 
 const Button = ({ children, type, onClick, classes }) => {
-  const { theme } = useTheme();
   if (type === "primary") {
     return (
       <button
         onClick={onClick}
         type="button"
-        className={`text-sm tablet:text-base p-1 laptop:p-2 m-1 laptop:m-2 rounded-lg ${
-          theme === "dark" ? "bg-white text-black" : "bg-black text-white"
-        }  transition-all duration-300 ease-out first:ml-0 hover:scale-105 active:scale-100 link ${
+        className={`text-sm tablet:text-base px-5 py-2.5 rounded-xl font-mono bg-black text-white hover:bg-zinc-800 dark:bg-white dark:text-black dark:hover:bg-zinc-200 transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] ${
           data.showCursor && "cursor-none"
-        }  ${classes}`}
+        } ${classes}`}
       >
         {children}
       </button>
     );
   }
+
+  // Default / Outlined style matching the "Hubungi saya" button
   return (
     <button
       onClick={onClick}
       type="button"
-      className={`text-sm tablet:text-base p-1 laptop:p-2 m-1 laptop:m-2 rounded-lg flex items-center transition-all ease-out duration-300 ${
-        theme === "dark"
-          ? "hover:bg-slate-600 text-white"
-          : "hover:bg-slate-100"
-      } hover:scale-105 active:scale-100  tablet:first:ml-0  ${
+      className={`text-sm tablet:text-base px-5 py-2.5 rounded-xl font-mono border border-slate-200 text-slate-700 hover:bg-slate-50 hover:text-slate-900 dark:border-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-900 dark:hover:text-white transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] ${
         data.showCursor && "cursor-none"
-      } ${classes} link`}
+      } ${classes}`}
     >
       {children}
     </button>

@@ -30,12 +30,12 @@ const BlogPost = ({ post }) => {
       </Head>
       {data.showCursor && <Cursor />}
 
+      <Header isBlog={true} />
       <div
         className={`container mx-auto mt-10 ${
           data.showCursor && "cursor-none"
         }`}
       >
-        <Header isBlog={true} />
         <div className="mt-10 flex flex-col">
           <img
             className="w-full h-96 rounded-lg shadow-lg object-cover"

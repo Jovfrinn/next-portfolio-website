@@ -1,1 +1,257 @@
-{"name":"Chetan","headerTaglineOne":"Hello 👋","headerTaglineTwo":"I'm Chetan Verma - curious","headerTaglineThree":"designer and devloper","headerTaglineFour":" based in New Delhi, India.","showCursor":true,"showBlog":true,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/chetanverma16"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/chetanverma7/"},{"id":"3","title":"Twitter","link":"https://twitter.com/realchetanverma"},{"id":"4","title":"Blog","link":"https://blog.chetanverma.com/"},{"id":"5","title":"Email","link":"mailto:hello@chetanverma.com"}],"projects":[{"id":"1","title":"Project One Test","description":"Web Design","imageSrc":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"2","title":"Project Two","description":"Web Development","imageSrc":"https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"3","title":"Project Three","description":"Design","imageSrc":"https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"4","title":"Project Four","description":"Marketing","imageSrc":"https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"5","title":"Project Five","description":"Development","imageSrc":"https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"6","title":"Project Six","description":"Design & Development","imageSrc":"https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"}],"services":[{"id":"1","title":"Art Direction","description":"We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."},{"id":"2","title":"Branding","description":"We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."},{"id":"3","title":"Web Design","description":"We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."},{"id":"4","title":"3D Design","description":"We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."}],"aboutpara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","resume":{"tagline":"👋  I'm a software engineer, product designer.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"March 2022 - Present","type":"Full Time","position":"Frontend Engineer at X","bullets":"Bullet One, Bullet Two"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"July 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"}],"education":{"universityName":"University X","universityDate":"2016-2020","universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"},"languages":["Javascript","HTML5","CSS","Python","Go"],"frameworks":["React","Typescript","NodeJs"],"others":["Figma","AdobeXD","AWS"]}}
+{
+  "name": "Jovfrin Joiner",
+  "headerTaglineOne": {
+    "en": "Available for freelance projects",
+    "id": "Tersedia untuk proyek lepas (freelance)"
+  },
+  "headerTaglineTwo": {
+    "en": "Full-Stack Developer.",
+    "id": "Full-Stack Developer."
+  },
+  "headerTaglineThree": {
+    "en": "Building systems & websites that actually get used.",
+    "id": "Bikin sistem & website yang beneran kepake."
+  },
+  "headerTaglineThreeRotations": {
+    "en": [
+      "systems & websites",
+      "CRM & CMS",
+      "ERP systems",
+      "e-learning platforms",
+      "mobile apps",
+      "internal systems"
+    ],
+    "id": [
+      "sistem & website",
+      "CRM & CMS",
+      "sistem ERP",
+      "platform e-learning",
+      "aplikasi mobile",
+      "sistem internal"
+    ]
+  },
+  "headerTaglineFour": {
+    "en": "Experienced in building ERP, CRM, CMS, e-learning, to mobile apps — end-to-end from database, API, to responsive design.",
+    "id": "Berpengalaman bangun ERP, CRM, CMS, e-learning, sampai aplikasi mobile — end-to-end dari database, API, sampai tampilan responsif."
+  },
+  "showCursor": false,
+  "showBlog": false,
+  "darkMode": true,
+  "showResume": false,
+  "socials_section": {
+    "title": {
+      "en": "Let's Connect",
+      "id": "Media Sosial"
+    },
+    "description": {
+      "en": "Find me on my digital profiles. Feel free to connect, collaborate, or just say hello!",
+      "id": "Hubungi saya atau ikuti aktivitas saya di berbagai platform digital berikut."
+    }
+  },
+  "socials": [
+    {
+      "id": "1",
+      "title": "Github",
+      "link": "https://github.com/Jovfrinn"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/jovfrin-joiner-elevait-gulo/"
+    },
+    {
+      "id": "3",
+      "title": "WhatsApp",
+      "link": "https://wa.me/6281211963047"
+    },
+    {
+      "id": "5",
+      "title": "Email",
+      "link": "mailto:jovfrinjoiner01@gmail.com"
+    }
+  ],
+  "projects": [
+    {
+      "id": "01",
+      "path": "~/mysales",
+      "title": {
+        "en": "Field Sales CRM (SFA + CRM)",
+        "id": "Field Sales CRM (SFA + CRM)"
+      },
+      "description": {
+        "en": "Mobile-first CRM for FMCG field sales — GPS check-in, ordering, stock tracking, and journey plans with supervisor approval flows.",
+        "id": "Aplikasi untuk salesman lapangan industri FMCG — GPS check-in ke outlet, input stok/penjualan/order per kunjungan, journey plan dengan approval flow SPV, dan fitur CRM seperti Customer 360, Interaction Log, dan Follow-up Reminder."
+      },
+      "tags": ["React JS", "Laravel", "MySQL", "Approval Flow", "React Native", "GPS", "REST API"],
+      "link": [{"label":"Frontend", "url": "https://github.com/Jovfrinn/sfa-frontend-web"}, {"label":"Backend", "url": "https://github.com/Jovfrinn/sfa-backend"}, {"label":"Mobile", "url": "https://github.com/Jovfrinn/sfa-frontend-mobile"}]
+    },
+    {
+      "id": "02",
+      "path": "~/edutrack",
+      "title": {
+        "en": "Enterprise Learning Management System (E-LMS)",
+        "id": "Enterprise Learning Management System (E-LMS)"
+      },
+      "description": {
+        "en": "A web-based employee training platform that helps companies manage courses, assess competencies, and monitor HR progress centrally.",
+        "id": "Platform pelatihan karyawan berbasis web yang membantu perusahaan mengelola kursus, menilai kompetensi, dan memantau perkembangan SDM secara terpusat."
+      },
+      "tags": ["React JS", "Laravel", "MySQL", "Analytics", "Reporting", "Gamification", "REST API"],
+      "link": [{"label":"Frontend", "url": "https://github.com/Jovfrinn/lms-edutrack-fe"}, {"label":"Backend", "url": "https://github.com/Jovfrinn/lms-edutrack-be"}]
+    },
+    {
+      "id": "03",
+      "path": "~/cms",
+      "title": {
+        "en": "Custom Web Content Management System (CMS)",
+        "id": "Custom Web Content Management System (CMS)"
+      },
+      "description": {
+        "en": "A web-based content management application to manage information, publish articles, and create dynamic pages without coding, equipped with media manager.",
+        "id": "Aplikasi manajemen konten berbasis web untuk mengelola informasi, publikasi artikel, dan halaman dinamis secara instan tanpa koding, dilengkapi dengan media manager dan penataan menu yang fleksibel."
+      },
+      "tags": ["React JS", "Laravel", "MySQL", "REST API"],
+      "link": [{"label":"Live", "url": "https://smpn64jkt.sch.id/"}]
+    },
+    {
+      "id": "04",
+      "path": "~/tefa",
+      "title": {
+        "en": "E-Commerce Platform for School Teaching Factory (TEFA)",
+        "id": "E-Commerce Platform untuk TEFA Sekolah"
+      },
+      "description": {
+        "en": "An e-commerce web application for Teaching Factory (TEFA) business units in schools, allowing customers to check products, stock, prices, and shop online.",
+        "id": "Web e-commerce untuk unit usaha Teaching Factory (TEFA) di lingkungan sekolah, supaya pelanggan bisa cek produk, stok, harga, dan belanja online tanpa harus datang langsung."
+      },
+      "tags": ["Blade", "Laravel", "MySQL", "Midtrans"],
+      "link": [{"label":"Repo", "url": "https://github.com/Jovfrinn/web-dev"}]
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": {
+        "en": "ERP & Internal System Development",
+        "id": "Pengembangan ERP & Sistem Internal"
+      },
+      "description": {
+        "en": "Building custom ERP systems for purchase requests, stock-taking, sales orders, invoicing, and complex approval workflows.",
+        "id": "Membangun sistem ERP custom untuk purchase request, stok opname, mutasi barang, sales order, invoicing, hingga approval flow kompleks."
+      }
+    },
+    {
+      "id": "2",
+      "title": {
+        "en": "Full-Stack Web Development",
+        "id": "Pengembangan Web Full-Stack"
+      },
+      "description": {
+        "en": "End-to-end web application development using React/Next.js on frontend, Node.js/PHP on backend, and PostgreSQL/MySQL databases.",
+        "id": "Pengembangan aplikasi web end-to-end menggunakan React/Next.js di frontend, Node.js/PHP di backend, dan database PostgreSQL/MySQL."
+      }
+    },
+    {
+      "id": "3",
+      "title": {
+        "en": "Database Optimization & Integration",
+        "id": "Optimasi & Integrasi Basis Data"
+      },
+      "description": {
+        "en": "Designing efficient database schemas, data migration, and integrating third-party APIs (payment gateways, shipping, barcode scanners).",
+        "id": "Merancang skema database yang efisien, migrasi data, integrasi API pihak ketiga (payment gateway, kurir, barcode scanner)."
+      }
+    },
+    {
+      "id": "4",
+      "title": {
+        "en": "Custom Approval & Workflow Systems",
+        "id": "Sistem Approval & Workflow Custom"
+      },
+      "description": {
+        "en": "Automating manual company workflows into digital flows with email/WhatsApp notifications and audit logs.",
+        "id": "Otomatisasi alur kerja manual perusahaan menjadi flow digital dengan notifikasi email/WhatsApp dan log audit lengkap."
+      }
+    }
+  ],
+  "aboutpara": {
+    "en": "Hi, I'm Jovfrin — a Full-Stack Developer currently studying Information Systems at Pamulang University. I have experience building CRM, CMS, e-learning, and ERP internal systems — from database design, REST APIs, to clean & responsive UI. Currently active as a Full-Stack Developer at PT Univerz Teknologi Utama, while accepting freelance projects. Ready to help from scratch to completion!",
+    "id": "Halo, saya Jovfrin — Full-Stack Developer lulusan RPL yang lagi lanjut kuliah Sistem Informasi di Universitas Pamulang. Udah berpengalaman bangun CRM, CMS, e-learning, sampai sistem internal perusahaan (ERP) — dari desain database, REST API, hingga tampilan yang rapi & responsif. Saat ini aktif sebagai Full-Stack Developer di PT Univerz Teknologi Utama, sambil terima project freelance. Siap bantu dari nol sampai selesai — konsultasi awal gratis!"
+  },
+  "techstack": {
+    "title": {
+      "en": "Tech Stack",
+      "id": "Tech Stack"
+    },
+    "description": {
+      "en": "The technologies, frameworks, and tools I use to build robust and scalable systems.",
+      "id": "Teknologi, framework, dan tools yang saya gunakan untuk membangun sistem yang andal dan skalabel."
+    },
+    "categories": [
+      {
+        "name": {
+          "en": "Languages & Core",
+          "id": "Bahasa Pemrograman"
+        },
+        "items": ["JavaScript", "TypeScript", "PHP", "SQL", "HTML5 & CSS3", "Python"]
+      },
+      {
+        "name": {
+          "en": "Frameworks & Libraries",
+          "id": "Framework & Library"
+        },
+        "items": ["React JS", "Next.js", "Node.js", "Laravel", "React Native", "Tailwind CSS", "Express.js"]
+      },
+      {
+        "name": {
+          "en": "Databases & Storage",
+          "id": "Database & Storage"
+        },
+        "items": ["MySQL", "PostgreSQL", "SQL Server","Redis"]
+      },
+      {
+        "name": {
+          "en": "Tools & DevOps",
+          "id": "Tools & DevOps"
+        },
+        "items": ["Git", "Docker", "REST API", "Postman", "Firebase", "Supabase"]
+      }
+    ]
+  },
+  "resume": {
+    "tagline": "👋 Saya software engineer khusus sistem internal & ERP.",
+    "description": "Membantu perusahaan mengotomatisasi operational workflow menggunakan React, Next.js, Node.js, dan Laravel.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "2024 - Sekarang",
+        "type": "Full Time",
+        "position": "Lead ERP Developer",
+        "bullets": "Membangun sistem purchase request, inventory, approval berjenjang, dan cetak invoice rapi."
+      }
+    ],
+    "education": {
+      "universityName": "Universitas Teknologi",
+      "universityDate": "2016-2020",
+      "universityPara": "Mendalami Rekayasa Perangkat Lunak dan Basis Data skala besar."
+    },
+    "languages": [
+      "Javascript",
+      "PHP",
+      "SQL",
+      "HTML5/CSS"
+    ],
+    "frameworks": [
+      "React",
+      "Next.js",
+      "NodeJS",
+      "Laravel"
+    ],
+    "others": [
+      "PostgreSQL",
+      "MySQL",
+      "Docker",
+      "Git"
+    ]
+  }
+}

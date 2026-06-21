@@ -147,8 +147,9 @@ const Edit = () => {
   };
 
   return (
-    <div className={`container mx-auto ${data.showCursor && "cursor-none"}`}>
+    <>
       <Header isBlog></Header>
+      <div className={`container mx-auto ${data.showCursor && "cursor-none"}`}>
       {data.showCursor && <Cursor />}
       <div className="mt-10">
         <div className={`${theme === "dark" ? "bg-transparent" : "bg-white"}`}>
@@ -905,7 +906,19 @@ const Edit = () => {
         )}
       </div>
     </div>
+    </>
   );
 };
+
+export async function getStaticProps() {
+  if (process.env.NODE_ENV !== "development") {
+    return {
+      notFound: true,
+    };
+  }
+  return {
+    props: {},
+  };
+}
 
 export default Edit;
