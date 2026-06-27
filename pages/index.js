@@ -332,10 +332,10 @@ export default function Home() {
           </div>
 
           {/* Action CTAs */}
-          <div className="mt-8 flex items-center gap-6">
+          <div className="mt-8 flex flex-wrap items-center gap-3 tablet:gap-6">
             <button
               onClick={handleWorkScroll}
-              className="text-sm px-6 py-3 rounded-xl font-mono flex items-center gap-2 transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] bg-transparent text-slate-900 hover:opacity-80 dark:bg-emerald-500 dark:text-zinc-950 dark:font-bold dark:hover:bg-emerald-400"
+              className="text-xs tablet:text-sm px-4 tablet:px-6 py-2.5 tablet:py-3 rounded-xl font-mono flex items-center gap-2 whitespace-nowrap transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] bg-transparent text-slate-900 hover:opacity-80 dark:bg-emerald-500 dark:text-zinc-950 dark:font-bold dark:hover:bg-emerald-400"
             >
               {lang === "en" ? "View projects" : "Lihat proyek"} <span>→</span>
             </button>
