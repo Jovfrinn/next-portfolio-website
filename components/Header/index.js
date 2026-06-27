@@ -112,11 +112,11 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             {mounted && resolvedTheme && data.darkMode && (
               <button
                 onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
-                className="p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-zinc-850 transition-colors"
+                className="p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-zinc-800 transition-colors"
                 aria-label="Toggle Theme"
               >
                 <img
-                  className={`h-5 w-5 opacity-70 ${resolvedTheme === "dark" ? "invert" : ""}`}
+                  className="h-5 w-5 opacity-70"
                   src={`/images/${resolvedTheme === "dark" ? "moon.svg" : "sun.svg"}`}
                   alt="Theme Toggle"
                 />
@@ -127,12 +127,15 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               {({ open }) => (
                 <>
                   <Popover.Button
-                    className="p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-zinc-850 transition-colors focus:outline-none"
+                    className="p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-zinc-800 transition-colors focus:outline-none"
                     aria-label="Toggle Navigation Menu"
                   >
                     <img
-                      className={`h-5 w-5 ${resolvedTheme === "dark" ? "invert" : ""}`}
-                      src={`/images/${!open ? "menu.svg" : "cancel.svg"}`}
+                      className="h-5 w-5"
+                      src={mounted && resolvedTheme === "dark"
+                        ? `/images/${!open ? "menu-white.svg" : "cancel-white.svg"}`
+                        : `/images/${!open ? "menu.svg" : "cancel.svg"}`
+                      }
                       alt="Menu Toggle"
                     />
                   </Popover.Button>
@@ -176,6 +179,14 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                             >
                               {t.contact}
                             </button>
+                            <a
+                              href={lang === "id" ? "/images/Resume-(Indonesia).pdf" : "/images/Resume-(English).pdf"}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="w-full text-left px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-zinc-900 transition-colors block"
+                            >
+                              {t.resume}
+                            </a>
                           </>
                         ) : (
                           <>
@@ -254,13 +265,15 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   {t.contact}
                   <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-emerald-500 dark:bg-emerald-400 group-hover:w-full transition-all duration-300"></span>
                 </button>
-                <button
-                  onClick={() => router.push("/resume.pdf")}
+                <a
+                  href={lang === "id" ? "/images/Resume-(Indonesia).pdf" : "/images/Resume-(English).pdf"}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="relative group pb-1 text-slate-600 dark:text-zinc-400 hover:text-emerald-500 dark:hover:text-emerald-400 transition-colors duration-200"
                 >
                   {t.resume}
                   <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-emerald-500 dark:bg-emerald-400 group-hover:w-full transition-all duration-300"></span>
-                </button>
+                </a>
               </>
             ) : (
               <>
